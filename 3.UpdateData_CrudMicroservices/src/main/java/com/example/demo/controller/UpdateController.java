@@ -20,9 +20,9 @@ public class UpdateController {
 	public CustTable getCustomer(@PathVariable("id") int id)
 	{
 		System.out.println(id);
-		CustTable cc=s.getCustomer(id);
+		CustTable cust=s.getCustomer(id);
 		
-		return cc;
+		return cust;
 	}
 	
 	@PutMapping(value ="/up" )
