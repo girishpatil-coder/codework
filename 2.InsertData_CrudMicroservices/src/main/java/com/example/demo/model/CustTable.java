@@ -9,6 +9,7 @@ public class CustTable{
 	
 	@Id
 	private int id;
+	@Column(name="Name")
 	private String name;
 	private String uname;
 	private String pass;
