@@ -10,4 +10,6 @@ public interface ServiceS {
 	//public List<CustTable>  getAllData(String un,String ps);
 	
 	public List<CustTable>  getAllData();
+	
+	public int addData(Customer c);
 }
